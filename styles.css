@@ -47,6 +47,11 @@ ul {
     padding: 0;
 }
 
+li {
+    font-family: var(--inter-font);
+    display: block;
+}
+
 span {
     display: block;
 }
@@ -92,7 +97,7 @@ picture {
 
 .card__stats {
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 2.5rem; 
 }
 
 .card__stats-container {
@@ -115,6 +120,7 @@ picture {
     text-transform: uppercase;
     letter-spacing: 0.125rem;
     font-size: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -140,7 +146,13 @@ picture {
     .card__stats {
         display: flex;
         justify-content: space-between;
+        gap: 20px;
     }
+
+    .card__stats-span {
+        margin-top: 0.5rem;
+    }
+
 
 } 
 
